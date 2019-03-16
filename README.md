@@ -34,4 +34,4 @@ A repo for my schoolwork while at Acadia University.
 ### Comp 3753 - Database Management Systems
 
 ### Comp 3773 - Advanced Object-Oriented Application Development with C++
-Covers C++ fundamentals, and implementing further design patterns in C++
+    Covers C++ fundamentals, and implementing further design patterns in C++
