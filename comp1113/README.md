@@ -1,3 +1,3 @@
-#COMP 1113
+# COMP 1113
 
-##Course Outline
+## Course Outline
