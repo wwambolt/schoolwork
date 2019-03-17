@@ -6,7 +6,7 @@
 This course provides theory and hands-on experience with the Internet and Web infrastructure, and full stack development using MEAN. We will cover an introduction to both client-side and server-side software technologies including database content-driven webpages and, as time allows, an introduction to application frameworks and containers. Individual tutorials and assignments will reinforce lectures by providing hands-on experience with web-centric software components.
 
 ### Minimal Learning Outcomes
-By the conclusion of the course students will understand;
+By the conclusion of the course students will understand
     * Bullet Fundamentals of frontend concepts and technologies: HTML/CSS, JavaScript, jQuery, DOM, JSON, Angular.js 
     * Bullet Fundamentals of backend concepts and technologies: PHP, Node.js, a framework like Express 
     * Bullet Fundamentals of web data storage: RDBMS such as MySQL, NoSQL DB such as MongoDB, and how to connect 
