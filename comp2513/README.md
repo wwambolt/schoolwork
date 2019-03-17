@@ -10,8 +10,8 @@ This course provides theory and hands-on experience with the Internet and Web in
 
     By the conclusion of the course students will understand
     
-    * Fundamentals of frontend concepts and technologies: HTML/CSS, JavaScript, jQuery, DOM, JSON, Angular.js
-    * Fundamentals of backend concepts and technologies: PHP, Node.js, a framework like Express
-    * Fundamentals of web data storage: RDBMS such as MySQL, NoSQL DB such as MongoDB, and how to connect
-    * Basics of HTTP and REST: POST/GET requests, cookies, sessions, RESTful APIs
-    * Web app architecture and tools: structuring your code, where to perform computation, MVC, GIT and GIThub
+    - Fundamentals of frontend concepts and technologies: HTML/CSS, JavaScript, jQuery, DOM, JSON, Angular.js
+    - Fundamentals of backend concepts and technologies: PHP, Node.js, a framework like Express
+    - Fundamentals of web data storage: RDBMS such as MySQL, NoSQL DB such as MongoDB, and how to connect
+    - Basics of HTTP and REST: POST/GET requests, cookies, sessions, RESTful APIs
+    - Web app architecture and tools: structuring your code, where to perform computation, MVC, GIT and GIThub
