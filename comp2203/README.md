@@ -3,12 +3,12 @@
 ## Course Outline
 * Digital Systems and Binary Numbers
 * Logic Algebra and Logic gates
- *  a) Boolean algebra
- *  b) Half adder
- *  c) Full adder
- *  d) Canonical forms
- *  e) Other logic Operations
- *  f) Digital logic gates
+    *  a) Boolean algebra
+    *  b) Half adder
+    *  c) Full adder
+    *  d) Canonical forms
+    *  e) Other logic Operations
+    *  f) Digital logic gates
 * Gate-Level Minimization
  *  a) Conversion to NAND and NOR gates
  *  b) Time response
