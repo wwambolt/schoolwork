@@ -6,10 +6,7 @@ A repo for my schoolwork while at Acadia University.
 ### Comp 2213 - Computer Architecture/Organization 2 (M68K-based)
 ### Comp 2513 - Web-Centric Programming (Web-stack)
 ### Comp 2663 - Software Engineering 1
-### Comp 3343 - Data Communications & Computer Networks
 ### Comp 3403 - Analysis of Algorithms
-### Comp 3513 - Systems Analysis & Design
-### Comp 3583 - Human-Computer Interaction
 ### Comp 3613 - Artificial Intelligence 1
 ### Comp 3703 - Translators
 ### Comp 3713 - Operating Systems
