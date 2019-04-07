@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class = "header" style="padding-bottom: 48px";>
+  <h1>Contact:</h1>
+</div>
+
+<!-- Navigation -->
+<div class="hornav">
+  <a href=index.html>Home</a>
+  <a href=aboutme.html>About Me</a>
+  <a href=resume.html>Resume</a>
+  <a href=likes.html>Likes</a>
+  <a href=gallery.html>Gallery</a>
+  <a href=contact.html class="active">Contact</a>
+</div>
+
+<div class="main">
+  <h1>Name: William Wambolt</h1>
+  <h2>Address: 223 Fortress of Solitude, Antarctica</h2>
+  <h3>Email: 097716w@acadiau.ca</h3>
+  <h3>Mobile #: [REDACTED]</h3>
+  <h3>Home #: [REDACTED]</h3>
+  <br>
+  <br>
+  
+  
+  <h1>MY LOCATION</h1> <!-- Testing a Google Map -->
+  <div id="map" style="width:400px;height:400px"></div>
+
+	<script>  
+	  function myMap() {
+		var mapOptions = {
+			center: new google.maps.LatLng(-77.849, 166.66),
+			zoom: 12,
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		}
+	  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	  }
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>	
+</div>
+
+<div class = "footer">
+  <p>Posted by: William Wambolt, 100097716</p>
+  <p>Contact information: You can call me on the phone but my friends call me William.</p>
+</div>
+
+</body>
+</html>

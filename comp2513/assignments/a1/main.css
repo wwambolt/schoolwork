@@ -1,0 +1,79 @@
+﻿/* Made a sticky footer*/
+
+/*Make footer follow after bottom of other elements*/
+html{
+  position:relative; 
+  min-height: 100%;
+}
+
+/* Add a background color to the page */
+body {
+    background-color: #6a778c;
+	min-height: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.hornav {
+	margin-top: 132px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.hornav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.hornav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.hornav a.active {
+    background-color: #a6badb;
+    color: white;
+}
+
+/* Header Styles */
+.header {
+  position: absolute;
+  overflow: hidden;
+  color: #ffffff;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 14px 16px;
+  background-color: #333;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* body style */
+.main{
+  overflow: auto;
+  padding-bottom: 64px;
+}
+
+
+/* Footer Styles*/
+.footer {
+  position: absolute;
+  color: #ffffff;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top:-64px;
+  height:64px;
+  background-color: #333;
+  text-align: center;
+  font-size: 11px;
+}

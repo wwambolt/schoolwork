@@ -1,0 +1,80 @@
+{
+	"album_comps":{
+		"title":"Computers",
+		"date":"March 2018",
+		"photos":{
+			"1":{
+				"title":"20th Anniversary Mac",
+				"date":"March 11, 2018",
+				"url":"./img/20amac.jpg"
+			},
+			"2":{
+				"title":"Commodore 64",
+				"date":"March 11, 2018",
+				"url":"./img/commodore64.jpg"
+			},
+			"3":{
+				"title":"FM Towns",
+				"date":"March 11, 2018",
+				"url":"./img/fmtowns.jpg"
+			},
+			"4":{
+			    "title":"NEC PC-9801 VX",
+				"date":"March 11, 2018",
+				"url":"./img/necpc-9801vx.jpg"
+		    }
+		}
+	},
+	"album_cats":{
+		"title":"Cats",
+		"date":"Winter 2018",
+		"photos":{
+			"1":{
+				"title":"Watermelon Cat",
+				"date":"February 1, 2018",
+				"url":"./img/cat1.jpg"
+			},
+			"2":{
+				"title":"Blini Cat",
+				"date":"Feb 14, 2018",
+				"url":"./img/cat2.jpg"
+			},
+			"3":{
+				"title":"Hungry Cat",
+				"date":"Feb 27, 2018",
+				"url":"./img/cat3.jpg"
+			},
+			"4":{
+				"title":"Grumpy Cat",
+				"date":"Feb 27, 2018",
+				"url":"./img/cat4.jpg"
+			}
+		}
+	},
+	"album_robots":{
+		"title":"Robot Wars",
+		"date":"",
+		"photos":{
+			"1":{
+				"title":"Chappie",
+				"date":"",
+				"url":"./img/chappie.jpg"
+			},
+			"2":{
+				"title":"Cyber-Man",
+				"date":"January 25, 2018",
+				"url":"./img/cyber-man.jpg"
+			},
+			"3":{
+				"title":"Cylon",
+				"date":"Feb 17, 2018",
+				"url":"./img/cylon.jpg"
+			},
+			"4":{
+				"title":"Geth",
+				"date":"Feb 17, 2018",
+				"url":"./img/geth.jpg"
+			}
+		}
+	}
+}

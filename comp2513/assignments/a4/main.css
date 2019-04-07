@@ -1,0 +1,46 @@
+.bg-1
+{ 
+    	background-color: #900020; /* Burgundy */
+    	color: #ffffff;
+}
+
+.bg-2
+{ 
+    	background-color: #510012; /* EXTRA DARK Burgundy */
+    	color: #ffffff;
+}
+
+.container-fluid
+{
+    	padding-top: 70px;
+    	padding-bottom: 70px;
+}
+
+.navbar
+{
+    	padding-top: 5px;
+    	padding-bottom: 5px;
+    	border: 0;
+    	border-radius: 0;
+    	margin-bottom: 0;
+    	font-size: 16px;
+    	letter-spacing: 2px;
+		  font-family: Georgia, serif;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #ffffff;
+		margin: 8px 0;
+}
+
+.navbar .container .navbar-brand {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.bg-4
+{ 
+    	background-color: #2f2f2f;
+    	color: #ffffff;
+}

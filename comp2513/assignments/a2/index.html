@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript Madlib</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="madlib.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="backdrop">
+	<div>
+	<!-- #1, #8 -->
+    <form id="forms">
+	    <h1>JavaScript Madlib</h1>
+	    <label for="exclamation">Exclamation:</label>
+		<input id="exc" type="text">
+		<br>
+		
+		<label for="adjective">Adjective:</label>
+		<input id="adj1" type="text">
+		<br>
+		
+		<label for="adjective">Adjective:</label>
+		<input id="adj2" type="text">
+		<br>
+		
+		<label for="noun">Noun:</label>
+		<input id="n1" type="text">
+		<br>
+		
+		<!-- #2 -->
+		<label for="number">Number:</label>
+		<input id="num1" type="number">
+		<br>
+		
+		<label for="number">Number:</label>
+		<input id="num2" type="number">
+		<br>
+		
+		<label for="adjective">Colour:</label>
+		<input id="adj3" type="text">
+		<br>
+		
+		<!-- #3 -->
+		<input type="radio" id="radio1" name="vehicle" checked> Ford
+		<input type="radio" id="radio2" name="vehicle"> Chevrolet
+		<br>
+		
+		<label for="noun">Noun:</label>
+		<input id="n2" type="text">
+		<br>
+
+	    <button type="button" id="submit">Generate your Madlib!</button><br>
+    </form>
+	</div>
+	</div>
+	<br>
+	<br>
+	
+	    <!-- #7 -->
+		<script>
+        $(document).ready(function(){
+            $("#hide_story").click(function(){
+                $("#story").hide();
+            });
+            $("#show_story").click(function(){
+                $("#story").show();
+            });
+        });
+        </script>
+	    <button id="hide_story"> Hide Story</button>
+	    <button id="show_story">Reveal Story</button>
+		
+		<!-- #8 -->
+		<div>
+		<p id="story">Your Madlib will appear here.</p>
+		</div>
+		<br>
+		
+		<!-- #7 -->
+		<script>
+        $(document).ready(function(){
+            $("#hide_map").click(function(){
+                $("#mapholder").hide();
+            });
+            $("#show_map").click(function(){
+                $("#mapholder").show();
+            });
+        });
+        </script>
+	    <button id="hide_map"> Hide Map </button>
+	    <button id="show_map"> Reveal Map </button>
+		<br>
+		
+		<!-- #10 -->
+		<br>
+	    <div id="mapholder"></div>
+
+</body>
+</html>

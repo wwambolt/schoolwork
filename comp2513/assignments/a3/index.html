@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQuery Madlib</title>
+    <link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="madlib.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+	<div id="header">
+	  <h1>Cyberpunk jQuery Madlib</h1>
+	</div>
+
+    <!-- #1, 8 -->
+	<!-- Forms -->
+    <div id="forms">
+	  <form id="libform">
+      <label for="name1">Store Name:</label>
+	  <input id="name1" class="input" type="text">
+	  <br>
+	  
+	  <label for="name2">City Name:</label>
+	  <input id="name2" class="input" type="text">
+	  <br>
+  
+	  <label for="tool">Tool:</label>
+	  <input id="tool" class="input" type="text">
+	  <br>
+	  
+	  <label for="vehicle">Vehicle:</label>
+	  <input id="vehicle" class="input" type="text">
+	  <br>
+	  
+	  <label for="corp">Corporation Name:</label>
+	  <input id="corp" class="input" type="text">
+	  <br>
+	  
+	  <label for="flav">Flavour:</label>
+	  <input id="flav" class="input" type="text">
+	  <br>
+	  
+	  <!-- #2 -->
+	  <label for="num1">Number:</label>
+	  <input id="num1" class="input" type="number">
+	  <span id="span1">Please enter only numerics.</span>
+	  <br>
+	  
+	  <label for="num2">Number:</label>
+	  <input id="num2" class="input" type="number">
+	  <span id="span2">Please enter only numerics.</span>
+	  <br>
+	  <p class="note">Mouse over the completed Madlib words to hide them.</p>
+	  <br>
+	  </form>
+	</div>
+	
+	<!-- Madlib -->
+	<div id="madlib">
+	  <p id="story"></p>
+	</div>
+    
+  </body>
+</html>

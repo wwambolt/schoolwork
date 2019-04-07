@@ -1,0 +1,95 @@
+@font-face
+{
+	font-family: computerfont;
+	src: url(fonts/Computerfont.ttf);
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+	font-family: digital;
+	src: url(fonts/digital-7.italic.ttf);
+	font-weight: normal;
+    font-style: italic;
+}
+
+
+
+body
+{
+    background: black;
+	background-image: url(img/brokenscreen.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header
+{
+    font-family: computerfont;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 48px;
+	color: lightgreen;
+	text-shadow: 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green;
+}
+
+h1
+{
+	margin: 0 auto;
+}
+
+#forms
+{
+	text-align: center;
+	color: lightgreen;
+	text-shadow: 0px 0px 8px green,
+				 0px 0px 8px green,
+				 0px 0px 8px green,
+				 0px 0px 8px green,
+				 0px 0px 8px green,
+				 0px 0px 8px green;
+	margin: auto;
+	width: 500px;
+}
+
+.input
+{
+	margin: 0 auto;
+	background-color: DarkSlateGray;
+	color: white;
+	margin-bottom: 8px;
+}
+
+#madlib
+{
+	margin: 0 auto;
+	text-align: center;
+	color: lightgreen;
+	font-size: 32px;
+	text-shadow: 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green,
+				 0px 0px 12px green;
+}
+
+.note
+{
+	font-size: 16px;
+}
+
+/* #10 */
+.libtext
+{
+	font-family: digital;
+	font-size: 42px;
+	color: yellow;
+	text-transform: uppercase;
+}
