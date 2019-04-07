@@ -1,0 +1,55 @@
+Script started on 2019-02-01 20:02:51-0400
+]0;william@william-E1-510: ~/Documents/comp3773x2[01;32mwilliam@william-E1-510[00m:[01;34m~/Documents/comp3773x2[00m$ 
+]0;william@william-E1-510: ~/Documents/comp3773x2[01;32mwilliam@william-E1-510[00m:[01;34m~/Documents/comp3773x2[00m$ . clarify
+$ 
+$ g++ -Wall -Wextra -std=c++11 driver.cpp Country.cpp Country.h -o Country
+$ 
+$ Country
+Number of countries: 0
+
+Country 1 created!
+Country 2 created!
+
+Number of countries: 2
+
+Country 1 name: Zimbabwe
+Country 1 pop.: 12
+
+Country 2 name: Canada
+Country 2 pop.: 30000000
+
+Country 2 renamed!
+Country 2 name: North American Free Trade Empire
+Country 2 pop.: 30000000
+
+Loop beginning. Testing the destruction of an out-of-scope object.
+Country 3 created
+Number of countries: 3
+Loop ending. Country 3 out of scope!
+
+Number of countries: 2
+
+Country 1 name: Zimbabwe
+Country 1 pop.: 12
+
+Country 2 name: North American Free Trade Empire
+Country 2 pop.: 30000000
+
+$ 
+$ echo "Conditional compilation to show assignment and copying don't work"
+Conditional compilation to show assignment and copying don't work
+$ 
+$ g++ -Wall -Wextra -std=c++11 driver.cpp Country.cpp Country.h -o Country -DDEEBUG
+[01m[Kdriver.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kdriver.cpp:56:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCountry::Country(const Country&)[m[K’ is private within this context
+         Country country3 = [01;31m[Kcountry2[m[K;
+                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[Kdriver.cpp:4:0[m[K:
+[01m[KCountry.h:32:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+     [01;36m[KCountry[m[K(const Country&);
+     [01;36m[K^~~~~~~[m[K
+$ 
+$ exit
+exit
+
+Script done on 2019-02-01 20:03:38-0400

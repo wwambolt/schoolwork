@@ -1,0 +1,73 @@
+Script started on 2019-01-30 09:49:04-0400
+]0;william@william-E1-510: ~/Documents/comp3773x2/a1[01;32mwilliam@william-E1-510[00m:[01;34m~/Documents/comp3773x2/a1[00m$ . clarify
+$ g++ -Wall -Wextra -std=c++11 a1-2-7.cpp -o a1-2-7
+$ a1-2-7
+Hard-coded tests.
+2^0 = 1
+3^1 = 3
+5^25 = 2.98023e+17
+9^32 = 3.43368e+30
+
+Looped testing.
+Please input a base.
+1
+Please input a positive exponent.
+0
+1^0 = 1
+
+Please input a base.
+2
+Please input a positive exponent.
+1
+2^1 = 2
+
+Please input a base.
+3
+Please input a positive exponent.
+100
+3^100 = 5.15378e+47
+
+Please input a base.
+1
+Please input a positive exponent.
+-1
+Please input a positive exponent.
+4
+1^4 = 1
+
+Please input a base.
+10
+Please input a positive exponent.
+-10
+Please input a positive exponent.
+10
+10^10 = 1e+10
+
+Please input a base.
+-5
+Please input a positive exponent.
+3
+-5^3 = -125
+
+Please input a base.
+5.5
+Please input a positive exponent.
+6
+5.5^6 = 27680.6
+
+Please input a base.
+25.4
+Please input a positive exponent.
+7
+25.4^7 = 6.82081e+09
+
+Please input a base.
+^Z
+[1]+  Stopped                 a1-2-7
+$ exit
+exit
+There are stopped jobs.
+$ exit
+exit
+
+Script done on 2019-01-30 09:50:47-0400

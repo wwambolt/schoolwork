@@ -1,0 +1,59 @@
+Script started on 2019-01-30 09:55:19-0400
+]0;william@william-E1-510: ~/Documents/comp3773x2/a1[01;32mwilliam@william-E1-510[00m:[01;34m~/Documents/comp3773x2/a1[00m$ . clarify
+$ 
+$ g++ -Wall -Wextra -std=c++11 a1-2-9.cpp -o a1-2-9
+$ 
+$ a1-2-9
+The program will average the values given by the user.
+Hardcoded Testing: 
+Average of {1, 3, 5} = 3
+Average of {10, 20, 30, 40, 50} = 30
+Average of {1} = 1
+Average of {1, 7, 52, 48, 5, 25} = 23
+
+User Testing: 
+Please input a valid array size. -1
+Please input a valid array size. 0
+Please input a valid array size. 1
+Please input the 1-th value to add to the array. 10
+The average of the given values is: 10
+
+Please input a valid array size. 2
+Please input the 1-th value to add to the array. 0
+Please input the 2-th value to add to the array. 0
+The average of the given values is: 0
+
+Please input a valid array size. 2
+Please input the 1-th value to add to the array. 10
+Please input the 2-th value to add to the array. 9
+The average of the given values is: 9.5
+
+Please input a valid array size. 5
+Please input the 1-th value to add to the array. 1
+Please input the 2-th value to add to the array. 2
+Please input the 3-th value to add to the array. 3
+Please input the 4-th value to add to the array. 4
+Please input the 5-th value to add to the array. 5
+The average of the given values is: 3
+
+Please input a valid array size. 4
+Please input the 1-th value to add to the array. a
+Please input the 1-th value to add to the array. b
+Please input the 1-th value to add to the array. 1
+Please input the 2-th value to add to the array. a
+Please input the 2-th value to add to the array. 2
+Please input the 3-th value to add to the array. b
+Please input the 3-th value to add to the array. 0
+Please input the 4-th value to add to the array. 5
+The average of the given values is: 2
+
+Please input a valid array size. ^Z
+[1]+  Stopped                 a1-2-9
+$ 
+$ exit
+exit
+There are stopped jobs.
+$ exit
+exit
+
+Script done on 2019-01-30 09:56:57-0400
