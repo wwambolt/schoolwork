@@ -1,8 +1,6 @@
 # schoolwork
 A repo for my schoolwork while at Acadia University.
 
-### COMP 1113 - Computer Programming 1 (Python-based)
-### COMP 1123 - Computer Programming 2 (Java-based, OOP)
 ### COMP 2103 - Computer Programming 3 (C-based, procedural; Shell scripting)
 ### Comp 2113 - Data Structures & Algorithms
 ### Comp 2203 - Computer Architecture/Organization 1
