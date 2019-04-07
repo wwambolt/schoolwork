@@ -1,4 +1,5 @@
 Assignment 6 (optional)
+
 Add the times family (*= and *) to the Integer7 class (see the sample code ).  Allow all the following versions:
 
 Integer7 m(3), n(5);
