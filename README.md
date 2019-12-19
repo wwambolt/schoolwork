@@ -10,5 +10,4 @@ A repo for my schoolwork while at Acadia University.
 ### Comp 3613 - Artificial Intelligence 1
 ### Comp 3703 - Translators
 ### Comp 3713 - Operating Systems
-### Comp 3753 - Database Management Systems
 ### Comp 3773 - Advanced Object-Oriented Application Development with C++
